@@ -18,6 +18,7 @@ const allowedOrigins = [
   'https://tomoto-admin.vercel.app', // Old frontend URL
   'https://tomoto-admin-gmf3qpwpc-chandra-02s-projects.vercel.app', // Current deployed frontend URL
   'http://localhost:3000', // For local development
+  'https://tomato-frontend-jodc.vercel.app/'
 ];
 
 // CORS configuration
