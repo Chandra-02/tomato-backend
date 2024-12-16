@@ -14,7 +14,7 @@ const port = process.env.PORT || 4000;
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+app.use(cors({ origin: 'https://tomoto-admin.vercel.app' }));
 
 // db connection
 connectDB()
